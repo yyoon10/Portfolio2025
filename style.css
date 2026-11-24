@@ -479,7 +479,7 @@ body {
 }
 
 .hero-tagline {
-    font-style: italic;
+    font-style: normal;
 }
 
 .hero-copy {
@@ -1653,9 +1653,8 @@ img.project-detail-image { cursor: zoom-in; }
 .lang-btn [data-lang] { color: var(--muted); transition: color 0.18s ease; }
 .lang-btn [data-lang].is-current { color: var(--text); }
 
-/* Korean: break lines between words, not inside them; no synthetic italic */
+/* Korean: break lines between words, not inside them */
 html:lang(ko) body { word-break: keep-all; }
-html:lang(ko) .hero-tagline { font-style: normal; }
 /* Korean contact copy is the heading alone; this line is English-only */
 html:lang(ko) .contact-line { display: none; }
 /* all-caps reads larger than mixed-case menu labels at the same size */
